@@ -1,6 +1,7 @@
 {-# LANGUAGE CPP #-}
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE CPP #-}
+{-# LANGUAGE TypeFamilyDependencies #-}
 
 module Database.Beam.Query.Combinators
     ( -- * Various SQL functions and constructs
