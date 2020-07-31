@@ -954,7 +954,7 @@ inst = Hs.IRule () Nothing Nothing . Hs.IHCon () . Hs.UnQual () . Hs.Ident ()
 beamMigrateSqlBackend :: HsBackendConstraint
 beamMigrateSqlBackend =
   HsBackendConstraint $ \beTy ->
-  Hs.ClassA () (Hs.UnQual () (Hs.Ident () "BeamMigrateSqlBackend")) [ beTy ]
+  Hs.TypeA () (Hs.UnQual () (Hs.Ident () "BeamMigrateSqlBackend")) [ beTy ]
 
 
 
